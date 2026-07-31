@@ -1,8 +1,25 @@
 aid: moove
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moove.png
 name: Moove
-description: 'Moove is a company surfaced as a portfolio company of dcm-ventures, speedinvest and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Moove is a mobility fintech providing revenue-based vehicle financing and ownership
+  programs that let drivers acquire cars, motorcycles, and trucks and build businesses on ride-sharing
+  and delivery partner platforms. Applicants apply to Moove, get verified, and start driving toward
+  owning their vehicle, typically within days. Moove partners with major manufacturers including
+  Hyundai, Toyota, Tesla, Volkswagen, and Bajaj, and centers its model on financial inclusion, gender
+  equality, and a hybrid/EV fleet transition. Backed by DCM Ventures and Speedinvest. Moove publishes
+  no public developer API, SDKs, or API documentation at this time; this profile captures the
+  company''s public identity and probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/moove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Mobility
+- Vehicle Financing
+- Embedded Finance
+- Ride-Sharing
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moove-domain-security.yml
 - type: Website
   url: https://www.moove.io/
+- type: Blog
+  url: https://www.moove.io/blog
+- type: Support
+  url: https://www.moove.io/contact-us
+- type: SignUp
+  url: https://www.moove.io/apply-to-moove
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -48,7 +48,7 @@ tags:
 - Mobility
 - Vehicle Financing
 - Embedded Finance
-- Ridesharing
+- Ride Hailing
 - Financial Inclusion
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - Embedded Finance
 - Ride-Sharing
 - Financial Inclusion
+- Ridesharing
 apis: []
 maintainers:
 - FN: Kin Lane
